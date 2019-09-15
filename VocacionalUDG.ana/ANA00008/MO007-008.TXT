@@ -1,0 +1,8 @@
+//MO007-008.TXT ANA00007 TO ANA00008
+MSTAreas	Activo	CNW	1-byte int$Boolean	new type for Activo item: 1-byte int
+MSTTipoUsuario	Activo	CNW	1-byte int$Boolean	new type for Activo item: 1-byte int
+MSTUsuarios	Activo	CNW	1-byte int$Boolean	new type for Activo item: 1-byte int
+Constraint_MSTTipoUsuario_MSTUsuarios		NWL	MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario)	New link between MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario) files
+Constraint_MSTAreas_MSTUsuarios		NWL	MSTAreas (WDId) and MSTUsuarios (Area)	New link between MSTAreas (WDId) and MSTUsuarios (Area) files
+Constraint_MSTUsuarios_MSTTipoUsuario		DEL	MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario)	Link deleted between MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario) files
+Constraint_MSTAreas_MSTUsuarios		DEL	MSTAreas (WDId) and MSTUsuarios (Area)	Link deleted between MSTAreas (WDId) and MSTUsuarios (Area) files

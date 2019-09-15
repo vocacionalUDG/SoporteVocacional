@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ANALYSE GenNum="1" VersionStructure="2" RepertoireDefaut=""><CONNEXION Nom="VocacionalLocal" Type="6"><SOURCE>localhost:3306</SOURCE><USER>root</USER><MDP>ycfLzQ==</MDP><DB>Soporte</DB><INFOS_ETENDUES>;Initial Catalog=Soporte</INFOS_ETENDUES></CONNEXION></ANALYSE>

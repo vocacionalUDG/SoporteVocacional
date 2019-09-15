@@ -1,0 +1,7 @@
+//MO005-006.TXT ANA00005 TO ANA00006
+MSTAreas		TAR	430	new record size: 430
+MSTAreas	Activo	RUB+		Activo is a new item
+MSTTipoUsuario		TAR	379	new record size: 379
+MSTTipoUsuario	Activo	RUB+		Activo is a new item
+MSTUsuarios		TAR	1155	new record size: 1155
+MSTUsuarios	Activo	RUB+		Activo is a new item

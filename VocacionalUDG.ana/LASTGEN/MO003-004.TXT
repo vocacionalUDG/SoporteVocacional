@@ -1,0 +1,35 @@
+//MO003-004.TXT ANA00003 TO ANA00004
+MSTAreas		NNF	areas	new name MSTAreas
+MSTAreas		TAR	429	new record size: 429
+MSTAreas		IDE+		file with identifier
+MSTAreas	WDId	RUB+		WDId is a new key
+MSTAreas	CodigoArea	TAI-	205	CodigoArea item has been resized: 51 (instead of 256)
+MSTAreas	FchReg	NNR	createdAt	CAUTION: item createdAt renamed FchReg
+MSTAreas	UsrReg	RUB+		UsrReg is a new item
+MSTAreas	FchAct	NNR	updatedAt	CAUTION: item updatedAt renamed FchAct
+MSTAreas	UsrAct	RUB+		UsrAct is a new item
+articulos	FchReg	NNR	createdAt	CAUTION: item createdAt renamed FchReg
+articulos	FchAct	NNR	updatedAt	CAUTION: item updatedAt renamed FchAct
+reportes	FchReg	NNR	createdAt	CAUTION: item createdAt renamed FchReg
+reportes	WDId	NNR	id	CAUTION: key id renamed WDId
+reportes	FchAct	NNR	updatedAt	CAUTION: item updatedAt renamed FchAct
+tiposestatus	FchReg	NNR	createdAt	CAUTION: item createdAt renamed FchReg
+tiposestatus	FchAct	NNR	updatedAt	CAUTION: item updatedAt renamed FchAct
+MSTTipoUsuario		NNF	tipousuarios	new name MSTTipoUsuario
+MSTTipoUsuario		TAR	378	new record size: 378
+MSTTipoUsuario		IDE-		file without identifier
+MSTTipoUsuario	WDId	NNR	id	CAUTION: key id renamed WDId
+MSTTipoUsuario	WDId	CNW	4-byte int$Automatic identifier (4 bytes)	new type for WDId item: 4-byte int
+MSTTipoUsuario	TipoUsuario	CLEU		TipoUsuario item is now key
+MSTTipoUsuario	FchReg	NNR	createdAt	CAUTION: item createdAt renamed FchReg
+MSTTipoUsuario	UsrReg	RUB+		UsrReg is a new item
+MSTTipoUsuario	FchAct	NNR	updatedAt	CAUTION: item updatedAt renamed FchAct
+MSTTipoUsuario	UsrAct	RUB+		UsrAct is a new item
+MSTUsuarios		NFI		new file
+Constraint_MSTUsuarios_MSTTipoUsuario		NWL	MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario)	New link between MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario) files
+Constraint_MSTAreas_MSTUsuarios		NWL	MSTAreas (WDId) and MSTUsuarios (Area)	New link between MSTAreas (WDId) and MSTUsuarios (Area) files
+usuarios_ibfk_1		DEL	areas (CodigoArea) and usuarios (Area)	Link deleted between areas (CodigoArea) and usuarios (Area) files
+usuarios_ibfk_2		DEL	tipousuarios (id) and usuarios (TipoUsuario)	Link deleted between tipousuarios (id) and usuarios (TipoUsuario) files
+MSTAreas		FRN		
+MSTTipoUsuario		FRN		
+MSTUsuarios		FRN		

@@ -1,0 +1,13 @@
+//MO001-002.TXT ANA00001 TO ANA00002
+areas		NFI		new file
+articulos		NFI		new file
+reportes		NFI		new file
+tiposestatus		NFI		new file
+tipousuarios		NFI		new file
+usuarios		NFI		new file
+reportes_ibfk_1		NWL	usuarios (Codigo) and reportes (Emisor)	New link between usuarios (Codigo) and reportes (Emisor) files
+reportes_ibfk_2		NWL	articulos (CodigoArticulo) and reportes (Articulo)	New link between articulos (CodigoArticulo) and reportes (Articulo) files
+reportes_ibfk_3		NWL	usuarios (Codigo) and reportes (Receptor)	New link between usuarios (Codigo) and reportes (Receptor) files
+reportes_ibfk_4		NWL	tiposestatus (CodigoEstatus) and reportes (Estatus)	New link between tiposestatus (CodigoEstatus) and reportes (Estatus) files
+usuarios_ibfk_1		NWL	areas (CodigoArea) and usuarios (Area)	New link between areas (CodigoArea) and usuarios (Area) files
+usuarios_ibfk_2		NWL	tipousuarios (id) and usuarios (TipoUsuario)	New link between tipousuarios (id) and usuarios (TipoUsuario) files

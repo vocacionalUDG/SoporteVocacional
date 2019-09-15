@@ -1,0 +1,8 @@
+//MO002-003.TXT ANA00002 TO ANA00003
+usuarios		TAR	1406	new record size: 1406
+usuarios		IDE+		file with identifier
+usuarios	WDId	RUB+		WDId is a new key
+usuarios	FchReg	NNR	createdAt	CAUTION: item createdAt renamed FchReg
+usuarios	UsrAct	RUB+		UsrAct is a new item
+usuarios	UsrReg	RUB+		UsrReg is a new item
+usuarios	FchAct	NNR	updatedAt	CAUTION: item updatedAt renamed FchAct
