@@ -1,8 +1,19 @@
-//MO007-008.TXT ANA00007 TO ANA00008
-MSTAreas	Activo	CNW	1-byte int$Boolean	new type for Activo item: 1-byte int
-MSTTipoUsuario	Activo	CNW	1-byte int$Boolean	new type for Activo item: 1-byte int
-MSTUsuarios	Activo	CNW	1-byte int$Boolean	new type for Activo item: 1-byte int
-Constraint_MSTTipoUsuario_MSTUsuarios		NWL	MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario)	New link between MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario) files
-Constraint_MSTAreas_MSTUsuarios		NWL	MSTAreas (WDId) and MSTUsuarios (Area)	New link between MSTAreas (WDId) and MSTUsuarios (Area) files
-Constraint_MSTUsuarios_MSTTipoUsuario		DEL	MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario)	Link deleted between MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario) files
+//MO008-009.TXT ANA00008 TO ANA00009
+usuarios		NFI		new file
+departamentos		NFI		new file
+perfiles		NFI		new file
+MSTAreas		FIC-	MSTAreas	MSTAreas file deleted
+articulos		FIC-	articulos	articulos file deleted
+reportes		FIC-	reportes	reportes file deleted
+tiposestatus		FIC-	tiposestatus	tiposestatus file deleted
+MSTTipoUsuario		FIC-	MSTTipoUsuario	MSTTipoUsuario file deleted
+usuarios		FIC-	usuarios	usuarios file deleted
+MSTUsuarios		FIC-	MSTUsuarios	MSTUsuarios file deleted
+usuarios_perfiles_PerfilID_fk		NWL	perfiles (PerfilID) and usuarios (Perfil)	New link between perfiles (PerfilID) and usuarios (Perfil) files
+usuarios_departamentos_DepartamentoID_fk		NWL	departamentos (DepartamentoID) and usuarios (Departamento)	New link between departamentos (DepartamentoID) and usuarios (Departamento) files
+reportes_ibfk_1		DEL	usuarios (Codigo) and reportes (Emisor)	Link deleted between usuarios (Codigo) and reportes (Emisor) files
+reportes_ibfk_2		DEL	articulos (CodigoArticulo) and reportes (Articulo)	Link deleted between articulos (CodigoArticulo) and reportes (Articulo) files
+reportes_ibfk_3		DEL	usuarios (Codigo) and reportes (Receptor)	Link deleted between usuarios (Codigo) and reportes (Receptor) files
+reportes_ibfk_4		DEL	tiposestatus (CodigoEstatus) and reportes (Estatus)	Link deleted between tiposestatus (CodigoEstatus) and reportes (Estatus) files
+Constraint_MSTTipoUsuario_MSTUsuarios		DEL	MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario)	Link deleted between MSTTipoUsuario (WDId) and MSTUsuarios (TipoUsuario) files
 Constraint_MSTAreas_MSTUsuarios		DEL	MSTAreas (WDId) and MSTUsuarios (Area)	Link deleted between MSTAreas (WDId) and MSTUsuarios (Area) files
