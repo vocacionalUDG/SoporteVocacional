@@ -1,0 +1,3 @@
+//MO016-017.TXT ANA00016 TO ANA00017
+ventanas		TAR	360	new record size: 360
+ventanas	Descripcion	RUB+		Descripcion is a new item

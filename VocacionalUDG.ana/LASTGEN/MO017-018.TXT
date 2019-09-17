@@ -1,0 +1,3 @@
+//MO017-018.TXT ANA00017 TO ANA00018
+ventanas		TAR	616	new record size: 616
+ventanas	Menu	RUB+		Menu is a new item
