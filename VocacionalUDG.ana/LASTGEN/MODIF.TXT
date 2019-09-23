@@ -1,3 +1,13 @@
-//MO017-018.TXT ANA00017 TO ANA00018
-ventanas		TAR	616	new record size: 616
-ventanas	Menu	RUB+		Menu is a new item
+//MO018-019.TXT ANA00018 TO ANA00019
+asistentes_eventos		NFI		new file
+detalle_eventos		NFI		new file
+eventos		NFI		new file
+fotos_eventos		NFI		new file
+tipo_asistentes		NFI		new file
+tipo_eventos		NFI		new file
+eventos_asistentes_eventos		NWL	eventos (EventoID) and asistentes_eventos (Evento)	New link between eventos (EventoID) and asistentes_eventos (Evento) files
+tipo_asistentes_asistentes_eventos		NWL	tipo_asistentes (TipoAsistenteID) and asistentes_eventos (TipoAsistente)	New link between tipo_asistentes (TipoAsistenteID) and asistentes_eventos (TipoAsistente) files
+eventos_detalle_eventos		NWL	eventos (EventoID) and detalle_eventos (Evento)	New link between eventos (EventoID) and detalle_eventos (Evento) files
+tipo_eventos_eventos		NWL	tipo_eventos (TipoEventoID) and eventos (TipoEvento)	New link between tipo_eventos (TipoEventoID) and eventos (TipoEvento) files
+usuarios_eventos		NWL	usuarios (UsuarioID) and eventos (ACargo)	New link between usuarios (UsuarioID) and eventos (ACargo) files
+eventos_fotos_eventos		NWL	eventos (EventoID) and fotos_eventos (Evento)	New link between eventos (EventoID) and fotos_eventos (Evento) files
