@@ -1,0 +1,17 @@
+//MO023-024.TXT ANA00023 TO ANA00024
+articulos		FCNX+	Connection to 'localhost:3307'	
+reportes		FCNX+	Connection to 'localhost:3307'	
+usuarios		FCNX+	Connection to 'localhost:3307'	
+departamentos		FCNX+	Connection to 'localhost:3307'	
+perfiles		FCNX+	Connection to 'localhost:3307'	
+botones		FCNX+	Connection to 'localhost:3307'	
+permisos		FCNX+	Connection to 'localhost:3307'	
+ventanas		FCNX+	Connection to 'localhost:3307'	
+estatus_reportes		FCNX+	Connection to 'localhost:3307'	
+asistentes_eventos		FCNX+	Connection to 'localhost:3307'	
+detalle_eventos		FCNX+	Connection to 'localhost:3307'	
+eventos		FCNX+	Connection to 'localhost:3307'	
+fotos_eventos		FCNX+	Connection to 'localhost:3307'	
+tipo_asistentes		FCNX+	Connection to 'localhost:3307'	
+tipo_eventos		FCNX+	Connection to 'localhost:3307'	
+Connection to 'localhost:3307'		CNX+		
