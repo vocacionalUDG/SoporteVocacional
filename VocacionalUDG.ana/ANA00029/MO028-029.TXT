@@ -1,0 +1,17 @@
+//MO028-029.TXT ANA00028 TO ANA00029
+articulos		FCNX+	Connection to '148.202.36.5:3306'	
+reportes		FCNX+	Connection to '148.202.36.5:3306'	
+usuarios		FCNX+	Connection to '148.202.36.5:3306'	
+departamentos		FCNX+	Connection to '148.202.36.5:3306'	
+perfiles		FCNX+	Connection to '148.202.36.5:3306'	
+botones		FCNX+	Connection to '148.202.36.5:3306'	
+permisos		FCNX+	Connection to '148.202.36.5:3306'	
+ventanas		FCNX+	Connection to '148.202.36.5:3306'	
+estatus_reportes		FCNX+	Connection to '148.202.36.5:3306'	
+asistentes_eventos		FCNX+	Connection to '148.202.36.5:3306'	
+detalle_eventos		FCNX+	Connection to '148.202.36.5:3306'	
+eventos		FCNX+	Connection to '148.202.36.5:3306'	
+fotos_eventos		FCNX+	Connection to '148.202.36.5:3306'	
+tipo_asistentes		FCNX+	Connection to '148.202.36.5:3306'	
+tipo_eventos		FCNX+	Connection to '148.202.36.5:3306'	
+Connection to '148.202.36.5:3306'		CNX+		
