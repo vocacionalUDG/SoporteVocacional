@@ -41,6 +41,8 @@ QRY_Articulos.WDR
 WIN_Articulos.wdw
 QRY_Menu.WDR
 WIN_Permisos.wdw
+TEMPLATES\WD\220 MATERIAL DESIGN INDIGO\MATERIAL DESIGN INDIGO_BTN_STD.PNG
+TEMPLATES\WD\220 MATERIAL DESIGN INDIGO\MATERIAL DESIGN INDIGO_PICT_REFRESH_16_5.PNG
 WIN_MenuPrincipal.wdw
 RPT_Reportes.wde
 WIN_VerReportes.wdw
@@ -50,7 +52,6 @@ QRY_TipoEventos.WDR
 WIN_TiposAsistentes.wdw
 QRY_TipoAsistentes.WDR
 WIN_Eventos.wdw
-TEMPLATES\WD\220 MATERIAL DESIGN INDIGO\MATERIAL DESIGN INDIGO_BTN_STD.PNG
 TEMPLATES\WD\220 MATERIAL DESIGN INDIGO\MATERIAL DESIGN INDIGO_PICT_DETAIL_16_5.PNG
 QRY_Eventos.WDR
 QRY_PermisosPorPerfil.WDR
@@ -64,6 +65,10 @@ QRY_UsuarioConcat.WDR
 QRY_Detalle_Eventos.WDR
 QRY_AsistentesEventos.WDR
 QRY_NuevoPerfil.WDR
+QRY_PermisoVentana_Perfil.WDR
+RPT_detalle_eventos.wde
+QRY_PerfilyVentanasSinPermiso.WDR
+RPT_test1.wde
 VocacionalUDG.wdy
 Templates\WD\180 BanQoo\BanQoo.wdy
 Templates\WD\180 BanQoo\BANQOO_BANNER_BOTTOM.PNG
