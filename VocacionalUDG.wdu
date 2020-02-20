@@ -68,7 +68,10 @@ QRY_NuevoPerfil.WDR
 QRY_PermisoVentana_Perfil.WDR
 RPT_detalle_eventos.wde
 QRY_PerfilyVentanasSinPermiso.WDR
-RPT_test1.wde
+QRY_testRpt.WDR
+RPT_Eventos.wde
+WIN_MiPerfil.wdw
+QRY_Usuario.WDR
 VocacionalUDG.wdy
 Templates\WD\180 BanQoo\BanQoo.wdy
 Templates\WD\180 BanQoo\BANQOO_BANNER_BOTTOM.PNG
