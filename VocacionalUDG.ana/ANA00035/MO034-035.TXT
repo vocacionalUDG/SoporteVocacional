@@ -1,0 +1,17 @@
+//MO034-035.TXT ANA00034 TO ANA00035
+articulos		FCNX+	Connection to 'localhost:3306'	
+reportes		FCNX+	Connection to 'localhost:3306'	
+usuarios		FCNX+	Connection to 'localhost:3306'	
+departamentos		FCNX+	Connection to 'localhost:3306'	
+perfiles		FCNX+	Connection to 'localhost:3306'	
+botones		FCNX+	Connection to 'localhost:3306'	
+permisos		FCNX+	Connection to 'localhost:3306'	
+ventanas		FCNX+	Connection to 'localhost:3306'	
+estatus_reportes		FCNX+	Connection to 'localhost:3306'	
+asistentes_eventos		FCNX+	Connection to 'localhost:3306'	
+detalle_eventos		FCNX+	Connection to 'localhost:3306'	
+eventos		FCNX+	Connection to 'localhost:3306'	
+fotos_eventos		FCNX+	Connection to 'localhost:3306'	
+tipo_asistentes		FCNX+	Connection to 'localhost:3306'	
+tipo_eventos		FCNX+	Connection to 'localhost:3306'	
+Connection to 'localhost:3306'		CNX+		
