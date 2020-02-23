@@ -1,0 +1,11 @@
+//MO036-037.TXT ANA00036 TO ANA00037
+detalle_eventos		TAR	5474	new record size: 5474
+detalle_eventos	NombreEvento	RUB+		NombreEvento is a new item
+detalle_eventos	NombreDisciplina	RUB+		NombreDisciplina is a new item
+detalle_eventos	Organismo	RUB+		Organismo is a new item
+detalle_eventos	ReconocimientoID	RUB+		ReconocimientoID is a new key
+detalle_eventos	dimensionID	RUB+		dimensionID is a new key
+dimension		NFI		new file
+reconocimientos		NFI		new file
+dimension_detalle_eventos		NWL	dimension (DimensionID) and detalle_eventos (dimensionID)	New link between dimension (DimensionID) and detalle_eventos (dimensionID) files
+reconocimientos_detalle_eventos		NWL	reconocimientos (DimensionID) and detalle_eventos (ReconocimientoID)	New link between reconocimientos (DimensionID) and detalle_eventos (ReconocimientoID) files

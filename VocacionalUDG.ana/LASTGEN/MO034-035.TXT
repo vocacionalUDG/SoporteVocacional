@@ -1,0 +1,2 @@
+//MO034-035.TXT ANA00034 TO ANA00035
+Connection to 'localhost:3307'		CNX		

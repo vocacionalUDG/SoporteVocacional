@@ -1,0 +1,19 @@
+//MO035-036.TXT ANA00035 TO ANA00036
+articulos		FCNX+	Connection to '13.89.216.250:3857'	
+reportes		FCNX+	Connection to '13.89.216.250:3857'	
+usuarios		FCNX+	Connection to '13.89.216.250:3857'	
+departamentos		FCNX+	Connection to '13.89.216.250:3857'	
+perfiles		FCNX+	Connection to '13.89.216.250:3857'	
+botones		FCNX+	Connection to '13.89.216.250:3857'	
+permisos		FCNX+	Connection to '13.89.216.250:3857'	
+ventanas		FCNX+	Connection to '13.89.216.250:3857'	
+estatus_reportes		FCNX+	Connection to '13.89.216.250:3857'	
+asistentes_eventos		FCNX+	Connection to '13.89.216.250:3857'	
+detalle_eventos		TAR	5163	new record size: 5163
+detalle_eventos		FCNX+	Connection to '13.89.216.250:3857'	
+detalle_eventos	total_asistentes	RUB+		total_asistentes is a new item
+eventos		FCNX+	Connection to '13.89.216.250:3857'	
+fotos_eventos		FCNX+	Connection to '13.89.216.250:3857'	
+tipo_asistentes		FCNX+	Connection to '13.89.216.250:3857'	
+tipo_eventos		FCNX+	Connection to '13.89.216.250:3857'	
+Connection to '13.89.216.250:3857'		CNX+		
