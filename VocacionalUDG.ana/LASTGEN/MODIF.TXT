@@ -1,5 +1,5 @@
-//MO037-038.TXT ANA00037 TO ANA00038
-reconocimientos	ReconocimientosID	RUB+		ReconocimientosID is a new key
-reconocimientos	DimensionID	RUB-		key DimensionID deleted
-reconocimientos_detalle_eventos		NWL	reconocimientos (ReconocimientosID) and detalle_eventos (ReconocimientoID)	New link between reconocimientos (ReconocimientosID) and detalle_eventos (ReconocimientoID) files
-reconocimientos_detalle_eventos		DEL	reconocimientos (DimensionID) and detalle_eventos (ReconocimientoID)	Link deleted between reconocimientos (DimensionID) and detalle_eventos (ReconocimientoID) files
+//MO038-039.TXT ANA00038 TO ANA00039
+reconocimientos	ReconocimientoID	RUB+		ReconocimientoID is a new key
+reconocimientos	ReconocimientosID	RUB-		key ReconocimientosID deleted
+reconocimientos_detalle_eventos		NWL	reconocimientos (ReconocimientoID) and detalle_eventos (ReconocimientoID)	New link between reconocimientos (ReconocimientoID) and detalle_eventos (ReconocimientoID) files
+reconocimientos_detalle_eventos		DEL	reconocimientos (ReconocimientosID) and detalle_eventos (ReconocimientoID)	Link deleted between reconocimientos (ReconocimientosID) and detalle_eventos (ReconocimientoID) files

@@ -72,6 +72,10 @@ QRY_testRpt.WDR
 RPT_Eventos.wde
 WIN_MiPerfil.wdw
 QRY_Usuario.WDR
+WIN_Dimension.wdw
+QRY_Dimension.WDR
+QRY_Reconocimientos.WDR
+WIN_Reconocimientos.wdw
 VocacionalUDG.wdy
 Templates\WD\180 BanQoo\BanQoo.wdy
 Templates\WD\180 BanQoo\BANQOO_BANNER_BOTTOM.PNG
